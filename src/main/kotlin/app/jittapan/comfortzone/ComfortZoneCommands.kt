@@ -71,6 +71,7 @@ class ComfortZoneCommands: CommandExecutor {
 
                     if (args.size < 2) {
                         sender.sendMessageWithColorCodes("Usage: /comfortzone addmember <Name>")
+                        return true
                     }
                     handleMember(sender, args[1], false)
                 }
@@ -82,6 +83,7 @@ class ComfortZoneCommands: CommandExecutor {
 
                     if (args.size < 2) {
                         sender.sendMessageWithColorCodes("Usage: /comfortzone removemember <Name>")
+                        return true
                     }
                     handleMember(sender, args[1], true)
                 }
