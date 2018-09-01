@@ -1,0 +1,19 @@
+name: ${project.name}
+main: app.jittapan.comfortzone.ComfortZone
+version: ${project.version}
+description: ${project.description}
+author: secretdataz
+website: https://jittapan.app
+api-version: 1.13
+depend:
+  - WorldGuard
+permissions:
+  comfortzone.admin:
+    default: op
+    description: Allow administration procedures for ComfortZone
+commands:
+  comfortzone:
+    description: Main command for ComfortZone
+    aliases:
+      - cz
+      - zone
