@@ -89,6 +89,7 @@ class ComfortZoneCommands: CommandExecutor {
             "reload" -> {
                 if(sender.hasPermission("comfortzone.admin")) {
                     ComfortZone.instance?.reloadCfg()
+					sender.sendComfortZoneMessage("reloaded")
                 } else {
                     sender.sendMessageWithColorCodes("&cYou do not have permission to do that.")
                 }
