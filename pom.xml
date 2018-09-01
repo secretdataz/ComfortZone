@@ -6,7 +6,7 @@
 
     <groupId>app.jittapan</groupId>
     <artifactId>comfortzone</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.2-SNAPSHOT</version>
     <description>Self-serviced WorldGuard claim plugin</description>
 
     <properties>
